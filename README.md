@@ -25,6 +25,73 @@
 - 🎨 User-friendly Python GUI with `customtkinter`  
 - 🧠 Uses extension and hash-based threat detection
 
+## 🚀 Getting Started
+
+- ### 🧾 Clone the Repository  
+    ```bash
+    git clone https://github.com/yourusername/shieldguard-antivirus.git
+    cd shieldguard-antivirus
+    ```
+
+## 📦 Libraries Installation
+
+To install the required libraries for running this project, use the following command:
+
+```bash
+pip install python-dotenv customtkinter
+```
+
+### 🖥️ Launch the Antivirus Dashboard
+
+To start the ShieldGuard Antivirus application with the GUI, run:
+
+```bash
+python shieldsecure.py
+```
+This will open the main dashboard built with `customtkinter`.
+
+## 📦 Built With
+
+- [Python 3.x](https://www.python.org/) – Core language used
+- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) – Modern Python UI framework
+- Standard Libraries:
+  - `os`
+  - `hashlib`
+  - `json`
+  - `datetime`
+  - `threading`
+  - `tkinter`
+
+## 🧪 Detection Capabilities
+
+This antivirus tool is designed for demonstration and educational purposes. It detects:
+
+- 🗂️ **Empty files** (0-byte) as suspicious.
+- 💣 **EICAR Standard Test File** — a safe test string used to simulate virus detection.
+
+To test with Empty File:
+
+1. Open **Notepad** (or any text editor).
+2. Without typing anything, click **File** → **Save As**.
+3. Save the file with any name (e.g., `empty.txt`).
+4. Run the antivirus scan — the tool should flag this file as suspicious due to its empty content.
+
+>⚠️ This is a basic test used to simulate scanning behavior. Empty files are treated as suspicious for demonstration purposes.
+
+To test EICAR detection:
+
+1. Open **Notepad**.
+2. Paste the following line exactly:
+
+    ```
+    X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+    ```
+
+3. Save it as `testvirus.txt`.
+4. Run the antivirus scan — the tool should flag this file as suspicious.
+
+> 🛡️ This test file is **not harmful** and is widely used to verify antivirus functionality without risk.
+
 
 ## 📸  ShieldSecure GUI Screenshots
 
@@ -60,43 +127,6 @@
 
 ---
 
-## 🚀 Getting Started
-
-- ### 🧾 Clone the Repository  
-    ```bash
-    git clone https://github.com/yourusername/shieldguard-antivirus.git
-    cd shieldguard-antivirus
-    ```
-
-## 📦 Libraries Installation
-
-To install the required libraries for running this project, use the following command:
-
-```bash
-pip install python-dotenv customtkinter
-```
-
-### 🖥️ Launch the Antivirus Dashboard
-
-To start the ShieldGuard Antivirus application with the GUI, run:
-
-```bash
-python shieldsecure.py
-```
-This will open the main dashboard built with `customtkinter`.
-
-
-## 📦 Built With
-
-- [Python 3.x](https://www.python.org/) – Core language used
-- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) – Modern Python UI framework
-- Standard Libraries:
-  - `os`
-  - `hashlib`
-  - `json`
-  - `datetime`
-  - `threading`
-  - `tkinter`
 
 
 ## 🧩 API Reference
