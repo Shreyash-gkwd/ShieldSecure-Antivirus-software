@@ -28,10 +28,10 @@
 ## 🚀 Getting Started
 
 ### 🧾 Clone the Repository  
-    ```bash
+    
     git clone https://github.com/yourusername/shieldguard-antivirus.git
     cd shieldguard-antivirus
-    ```
+    
 
 ## 📦 Libraries Installation
 
