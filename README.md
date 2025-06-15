@@ -83,13 +83,13 @@ This project integrates the [VirusTotal Public API](https://www.virustotal.com/g
 
 To use the API:
 
-###### 1. Create a free account at [virustotal.com](https://www.virustotal.com).
-###### 2. Go to your profile > API key.
-###### 3. Copy the key and store it in a `.env` file as:
+1. Create a free account at [virustotal.com](https://www.virustotal.com).
+2. Go to your profile > API key.
+3. Copy the key and store it in a `.env` file as:
    ```env
    API_KEY=your_api_key_here
    ```
-###### 4. The app will automatically load this key using `python-dotenv`.
+4. The app will automatically load this key using `python-dotenv`.
 > ⚠️ Note: VirusTotal has rate limits for free users (4 requests per minute).
 
 
