@@ -19,23 +19,47 @@
 ## 🧩 Features
 
 
-- ⚡ Quick Scan & Full Scan options  
-- 🔒 Real-Time Protection  
+- ⚡ Quick Scan & Full Scan options   
 - 🧼 Quarantine and Restore functionality  
 - 📝 JSON-based Threat Logs  
 - 🎨 User-friendly Python GUI with `customtkinter`  
 - 🧠 Uses extension and hash-based threat detection
 
 
-## 📸 Screenshots
+## 📸  ShieldSecure GUI Screenshots
 
-<p float="left">
-  <img src="https://via.placeholder.com/400x200?text=Dashboard+GUI" alt="Dashboard GUI" width="400"/>
-  <img src="https://via.placeholder.com/400x200?text=Scan+Results" alt="Scan Results" width="400"/>
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/7a2b39a0-b5f5-4d80-a2b7-ab8d15bcbb76" width="400"/><br/>
+      <strong>GUI Dashboard</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/23cb6a08-ca8d-4763-b544-37a9ace9dcd7" width="400"/><br/>
+      <strong>Scan Results</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a343df42-1250-4fc2-b547-f437d6cdc5a4" width="400"/><br/>
+      <strong>Quarantine Section</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/4f465f42-4d62-421d-9294-1f7e3b66c68e" width="400"/><br/>
+      <strong>Threat Logs</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="https://github.com/user-attachments/assets/2825db46-f823-4824-8e2f-c21263770a22" width="400"/><br/>
+      <strong>Threat Report</strong>
+    </td>
+  </tr>
+</table>
 
 
 ---
+
 ## 🚀 Getting Started
 
 - ### 🧾 Clone the Repository  
@@ -100,7 +124,7 @@ To use the API:
 - 📊 Detailed scanning analytics dashboard
 - 🗃️ Real-time file system hooks for faster detection
 
----
+
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 ## 📜 License
