@@ -121,7 +121,7 @@ To test EICAR detection:
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/b619c358-ee54-4a09-b7d9-cac58263c20a" width="400"/><br/>
-      <strong>Scan Results</strong>
+      <strong>Real-Time Protection</strong>
     </td>
   </tr>
   <tr>
