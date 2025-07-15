@@ -16,6 +16,16 @@
 
 
 
+## ✨ Recent Improvements
+
+- **Real-Time Protection:** Monitors your system in real time for suspicious files and automatically quarantines threats as they appear, using the `watchdog` library.
+- **Process Termination:** Uses `psutil` to safely terminate processes using suspicious files before quarantine.
+- **Robust Quarantine Handling:** Prevents recursive quarantine, ensures unique filenames, and keeps quarantine and logs in sync.
+- **Dynamic Dashboard:** Displays real-time protection status, threat count, and system health dynamically.
+- **UI/UX Enhancements:** Consistent "ShieldSecure" branding, professional modern UI, centered confirmation popups, and instant UI updates after actions.
+- **Testing Suite:** All test scripts and documentation are now organized in a `tests/` folder. Safe test scripts simulate malware detection without risk.
+- **.venv in .gitignore:** Ensures the virtual environment is not committed to the repository.
+
 ## 🧩 Features
 
 
@@ -24,6 +34,11 @@
 - 📝 JSON-based Threat Logs  
 - 🎨 User-friendly Python GUI with `customtkinter`  
 - 🧠 Uses extension and hash-based threat detection
+- 🛡️ **Real-Time Protection** (auto quarantine of threats as they appear)
+- 🔒 **Process Termination** before quarantine
+- 📊 **Dynamic Dashboard** with real-time status and health
+- 🗃️ **Robust Quarantine** (prevents recursion, unique filenames, instant UI updates)
+- 🧪 **Safe Testing Suite** in `tests/` folder
 
 ## 🚀 Getting Started
 
@@ -92,6 +107,9 @@ To test EICAR detection:
 
 > 🛡️ This test file is **not harmful** and is widely used to verify antivirus functionality without risk.
 
+> 🧪 **Testing Suite:**
+> - All test scripts and documentation are now in the `tests/` folder.
+> - Safe test scripts simulate malware detection and can be used without risk to your system.
 
 ## 📸  ShieldSecure GUI Screenshots
 
@@ -152,7 +170,6 @@ To use the API:
 - 🧠 AI-based threat detection (ML integration)
 - 🌐 Cloud upload of logs
 - 📊 Detailed scanning analytics dashboard
-- 🗃️ Real-time file system hooks for faster detection
 
 
 ## 🤝 Contributing
