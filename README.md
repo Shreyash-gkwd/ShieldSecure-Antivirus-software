@@ -116,27 +116,27 @@ To test EICAR detection:
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/7a2b39a0-b5f5-4d80-a2b7-ab8d15bcbb76" width="400"/><br/>
+      <img src="https://github.com/user-attachments/assets/4b6b357f-d3fc-4314-9362-6dca2b0e4228" width="400"/><br/>
       <strong>GUI Dashboard</strong>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/23cb6a08-ca8d-4763-b544-37a9ace9dcd7" width="400"/><br/>
+      <img src="https://github.com/user-attachments/assets/b619c358-ee54-4a09-b7d9-cac58263c20a" width="400"/><br/>
       <strong>Scan Results</strong>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/a343df42-1250-4fc2-b547-f437d6cdc5a4" width="400"/><br/>
+      <img src="https://github.com/user-attachments/assets/c8c1a1ef-7af7-4219-aa67-5c5ea6c3d8a5" width="400"/><br/>
       <strong>Quarantine Section</strong>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/4f465f42-4d62-421d-9294-1f7e3b66c68e" width="400"/><br/>
+      <img src="https://github.com/user-attachments/assets/668fb1e2-e9d5-4f97-99c8-4dbb433e828b" width="400"/><br/>
       <strong>Threat Logs</strong>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="https://github.com/user-attachments/assets/2825db46-f823-4824-8e2f-c21263770a22" width="400"/><br/>
+      <img src="https://github.com/user-attachments/assets/44b59fb5-ca85-43e9-824f-0b8675153099" width="400"/><br/>
       <strong>Threat Report</strong>
     </td>
   </tr>
